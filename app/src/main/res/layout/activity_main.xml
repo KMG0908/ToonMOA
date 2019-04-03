@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/naver"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_bg"
+            android:drawableLeft="@drawable/naver"
+            android:gravity="left|center_vertical"
+            android:text="  네이버 웹툰"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/daum"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/daum"
+            android:text="   다음 웹툰"
+            android:textSize="7pt"
+            android:background="@drawable/btn_bg"
+            android:gravity="left|center_vertical" />
+
+        <Button
+            android:id="@+id/ktoon"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/ktoon"
+            android:text="   케이툰"
+            android:textSize="7pt"
+            android:background="@drawable/btn_bg"
+            android:gravity="left|center_vertical" />
+
+        <Button
+            android:id="@+id/foxtoon"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:drawableLeft="@drawable/foxtoon"
+            android:text="   폭스툰"
+            android:textSize="7pt"
+            android:background="@drawable/btn_bg"
+            android:gravity="left|center_vertical"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
